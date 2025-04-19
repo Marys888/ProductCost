@@ -25,9 +25,9 @@ public class Product {
     @Override
     public String toString() {
         return "Product: " + name +
-                ", quota is" + quota + " " +
+                ", quota is" + " " + quota + " " +
                 Constants.MEASURE +
-                ", price is" + Constants.CURRENCY +
+                ", price is" + " " +  Constants.CURRENCY +
                 " " + price + ".";
     }
 }
